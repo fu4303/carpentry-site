@@ -1,0 +1,28 @@
+<a id="contact" class="anchor"></a>
+<section class="section p-5"
+         style="background:url('../../../assets/img/home-bg03.jpg') repeat top left scroll;">
+  <div class="container">
+    <h1 class="pb-4">Contact</h1>
+    <p class="contact-text text-center">Please <a style="color:#999;" href="mailto:info@williamscarpentry.co.uk" title="info@williamscarpentry.co.uk">contact us</a> for a free quotation!</p>
+
+    <div class="contact-area">
+
+      <form class="contact-form" action="" method="post">
+        <input type="text" id="name" name="name" class="form-control" tabindex="1" placeholder="Your Name" [(ngModel)]="name">
+        <input type="email" id="emailAddress" name="emailAddress" class="form-control" tabindex="2" placeholder="Your Email Address" [(ngModel)]="emailAddress" email>
+        <textarea id="message" name="message" class="form-control" tabindex="3" rows="7" placeholder="Please describe your requirements." [(ngModel)]="message"></textarea>
+        <button id="submit" class="btn btn-block" tabindex="4" (click)="sendEmail()"
+                [ngClass]="name.length > 0
+                        && emailAddress.length > 0
+                        && emailAddress.includes('@')
+                        && message.length > 0 ? 'btn-success' : ''"
+                [disabled]="name.length > 0
+                        && emailAddress.length > 0
+                        && emailAddress.includes('@')
+                        && message.length > 0 ? false : true">Send</button>
+      </form>
+
+    </div>
+
+  </div>
+</section>

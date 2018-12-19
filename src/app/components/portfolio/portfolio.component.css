@@ -1,0 +1,61 @@
+.section h1,.section-portfolio h1 {
+  font-family:'Raleway',sans-serif;
+  font-size:3em;
+  color:#666;
+  font-style:normal;
+  font-weight:300;
+  text-align:center;
+}
+
+.portfolio-cat {
+  margin-bottom:30px;
+}
+.portfolio-cat ul {
+  overflow:hidden;
+  display:inline-block;
+}
+.portfolio-cat li {
+  float:left;
+  list-style-type:none;
+  border:1px solid #666;
+  margin-right:10px;
+}
+.portfolio-cat li a {
+  display:block;
+  padding:5px;
+  font-size:18px;
+  color:#666;
+  text-transform:uppercase;
+}
+.portfolio-cat li a:hover {
+  background-color:#666;
+  color:#fff;
+}
+.portfolio-list {
+  margin:0 auto;
+}
+.portfolio-list ul {
+  margin:0 auto;
+  overflow:hidden;
+  display:inline-block;
+}
+.portfolio-list li {
+  float:left;
+  list-style-type:none;
+  width:23%;
+  margin-left:0;
+  margin-right:2.6%;
+  margin-bottom:10px;
+  overflow:hidden;
+  padding:0 auto;
+}
+.portfolio-list li:nth-child(4n) {
+  margin-right:0;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}

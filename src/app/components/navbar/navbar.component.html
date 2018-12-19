@@ -1,0 +1,38 @@
+<div id="navbar" class="navbar navbar-expand-lg navbar-dark navbar-grey sticky">
+  <a class="d-flex" href="#">
+    <img src="../../../assets/img/cropped-williams-carpentry-banner.png">
+  </a>
+  <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"
+          (click)="isCollapsed = !isCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <nav class="navbar-collapse collapse"
+       id="navbarToggleExternalContent"
+       [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home" (click)="isCollapsed = !isCollapsed">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutus" (click)="isCollapsed = !isCollapsed">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services" (click)="isCollapsed = !isCollapsed">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio" (click)="isCollapsed = !isCollapsed">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" (click)="isCollapsed = !isCollapsed">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#findus" (click)="isCollapsed = !isCollapsed">WHERE WE OPERATE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials" (click)="isCollapsed = !isCollapsed">TESTIMONIALS</a>
+      </li>
+    </ul>
+  </nav>
+</div>

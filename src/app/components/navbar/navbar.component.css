@@ -1,0 +1,11 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-grey {
+  background-color: #767B75;
+}

@@ -1,0 +1,19 @@
+<a id="portfolio" class="anchor"></a>
+<section class="section p-5"
+         style="background:url('../../../assets/img/home-bg02.jpg') repeat top left scroll;">
+  <div class="container">
+    <h1 class="pb-4">Portfolio</h1>
+    <p class="pb-2">Please click an image to view our portfolio:</p>
+    <div class="row">
+
+      <gallery class="flex-fill"
+        [flexBorderSize]="10"
+        [flexImageSize]="7"
+        [galleryName]="'portfolio'"
+        [maxRowsPerPage]="3"
+        (viewerChange)="galleryViewerChange($event)">
+      </gallery>
+
+    </div>
+  </div>
+</section>

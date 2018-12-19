@@ -1,0 +1,29 @@
+#home {
+  background: no-repeat url('../../../assets/img/1400x933-new-home-construction.jpg');
+  background-size: cover;
+}
+
+.section-banner h1 {
+  font-family:'Lustria',serif;
+  color:#FFF;
+  font-weight:400;
+  font-size: 4em;
+  text-transform:uppercase;
+  line-height:82px;
+  display:inline;
+  text-align:center;
+  text-transform:uppercase;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+  margin-top:160px;
+  word-wrap:break-word;
+}
+.section-banner span,
+.section-banner .sub-title{
+  margin-top:25px;
+  font-family:'Lustria',serif;
+  color:#FFF;
+  font-size:18px;
+  text-transform:uppercase;
+  display: block;
+}
